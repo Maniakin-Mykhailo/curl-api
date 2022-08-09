@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.link {
+    text-decoration: none;
+    color: #000000;
+    cursor: default;
+}
+.link:hover{
+     color: #000000;
+}
+.table-span{
+    text-align: center;
+}
+.table-title {
+    font-size: 25px;
+    font: bold;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.dropdown{
+    margin: 5px;
+}
+.modal-title{
+    margin: 5px;
+}
