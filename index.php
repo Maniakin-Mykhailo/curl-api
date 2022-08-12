@@ -87,7 +87,7 @@ require_once 'userTransaction.php';
                 </button>
             </div>
             <div class="modal-body">
-                <?php if (!isset($response_list)):?>
+                <?php if (isset($response_list)):?>
                 <?php foreach ($response_list as $resl): ?>
                     <pre>
                     <?php print 'customer_id: ' . $resl['customer_id'] . "<br/>" ?>
@@ -100,7 +100,7 @@ require_once 'userTransaction.php';
                     </pre>
                 <?php endforeach; ?>
                 <?php else: ?>
-                <p>0 transaction exists for this userr</p>
+                <p>0 transaction exists for this user</p>
                 <?php endif; ?>
             </div>
         </div>
